@@ -1,0 +1,68 @@
+body{
+  width:100% ;
+  height: auto ;
+}
+/* for navbar*/
+.navbar {
+  margin-bottom: 0;
+  background-color: rgb(34, 32, 32);
+  border: 0;
+  font-size: 11px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a,
+.navbar .navbar-brand {
+  color: #fdf7f7 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+  color: rgb(232, 245, 50) !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color: #29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+  border-color: rgb(124, 180, 212) ;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+  color: #fff;
+  background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+  color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+  background-color: red !important;
+}
+@media screen and (max-width: 600px) {
+  .navbar {
+    background-color: rgb(51, 48, 48);
+  }
+  .navbar-nav li.active a {
+    color: rgb(51, 48, 48) !important;
+    background-color: #1b1919 !important;
+  }
+
+  .navbar li a,
+  .navbar .navbar-brand {
+    color: #e3eff1 !important;
+  }
+}
+.container-fluid{
+background-color: rgb(122, 117, 117);
+}
